@@ -38,6 +38,9 @@ header{
     width: 40%;
     
 }
+.links a:hover{
+    opacity: 0.7;
+}
 .start{
     display: flex;
     align-items: center;
@@ -52,6 +55,7 @@ header{
     outline: hidden;
     cursor: pointer;
     box-shadow: 5px 1px 5px var(--color-Very-Pale-Red);
+    font-weight: 700;
 }
 .start button:hover{
    opacity: 0.7;
@@ -90,7 +94,7 @@ width: 100%;
     background-position-x:-461px ;
     background-position-y:351px ;
     overflow: hidden;
-    /* padding-bottom: 500px;/ */
+    
 }
 
 .middle{
@@ -209,10 +213,12 @@ margin-bottom: 100px;}
     color: var(--color-Bright-Red) ;
     border: 1px solid white ;
     box-shadow: none  ;
+    font-weight: 700;
 }
 .white button:hover{
-   
-    opacity: 0.9 ;
+   /* color: var(--color-Very-Pale-Red); */
+    /* opacity: 0.9 ; */
+    color: rgb(241, 143, 143);
     
 }
 footer{
@@ -276,12 +282,13 @@ outline: none;
 }
 #go{
     margin-left: 5px;
-    padding: 10px  15px;
+    padding: 10px  17px;
     border-radius: 20px;
     background-color: var(--color-Bright-Red);
     color: white;
     border: 1px solid var(--color-Bright-Red);
     cursor: pointer;
+    font-weight: 700;
 
 }
 #error{
@@ -292,7 +299,11 @@ outline: none;
     font-size: 12px;
 }
 #go:hover{
-    opacity: 0.7;
+    
+     background-color: rgb(240, 137, 124);
+     border-color: rgb(240, 137, 124);
+     
+   
 }
 .mobile{
     display: none;
@@ -399,7 +410,7 @@ outline: none;
     }
     .subsp span{
         position: absolute;
-        left: 10px;
+        left: 16px;
         margin-left: 5px;
         margin-right: 0px;
         padding-right: 0px;
@@ -410,6 +421,8 @@ outline: none;
     
     }
     .subsp h3{
+        padding-top: 5px;
+        padding-bottom: 5px;
         font-size: 16px;
     background-color: #FFF0EC;
     padding-left: 18px;
@@ -420,7 +433,7 @@ outline: none;
     
     .spanceck{
         border-radius: 50px;
-    /* background-color: red; */
+    
     border: 1px solid var(--color-Bright-Red);
     margin: 5px;
     width: 10px;
@@ -454,14 +467,16 @@ outline: none;
         background-image: url(./images/bg-simplify-section-mobile.svg);
         background-repeat: no-repeat;
         background-position: left;
+        padding-bottom: 40px;
     }
     .simplytext{
         width: 100%;
+        padding-top: 20px;
     }
     .simplytext h3{
         text-align: center;
         padding: 20px;
-    font-size: 36px;
+    font-size: 37px;
         }
     .white button{
         margin-top: 10px;
