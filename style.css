@@ -309,7 +309,7 @@ outline: none;
     display: none;
 }
 
-@media screen and (max-width:630px){
+@media screen and (max-width:640px){
     .links{display: none;}
     .butheader{
         flex-direction: column;
